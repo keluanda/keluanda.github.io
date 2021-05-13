@@ -49,14 +49,21 @@ header {
 		margin: 0px;
 	
 }
-section {
-        padding: 10px;
-        margin: 10px;
-       
-	
-      }
- .principal h5{
-	text-align :center;
+p{
+	/* border: 0px blue dashed;*/
+	  box-shadow: 1px 1px 1px 1px grey ;
 	
 }
+ul{
+
+	list-style-type:none;
+}
+aside{
+	
+	flex-direction: row;
+	
+	align-self:flex-end;
+}
+
+
 .
