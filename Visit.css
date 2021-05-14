@@ -1,69 +1,93 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+principal,h5 {
+	font-family: 'Dayrom', Arial, sans-serif;
+	font-size:1.5em;
+	
+}
+
 .avatar {
 
-	height:10em;
+	height:5em;
 	
 	align-items: center;
 }
 body{
-	display:flex;
- flex-direction: column;
- align-items: center;
- justify-content:center;
- text-align:center;
+	  font-family: 'Trebuchet MS', Arial, sans-serif;
+	
  background:url("media/cement.jpg");
-  max-width: 100%;
-    height: auto;
- 
- background-position:center center;
- background-size:100%;
-background-attachment:scroll;
+
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 .titre {
 color:blue;
-	
+ font-family: 'BallparkWeiner', Arial, sans-serif;	
 
 }
-html {
-		box-sizing: border-box;
-	}
+#bloc{
+	width: 900px;
+    margin: auto;
+}
 header {
+	  display: flex;
+    justify-content: justify;
+    align-items: flex-end;
+}
 	
-
-	overflow:auto;
-	word-wrap: break-word;
-
-	width: 50%; /* On a indiqué une largeur (obligatoire) */
-    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
- padding: 12px;
-    margin-bottom: 20px;
 	
-	}
 .principal{
 	 
 
 	width: 80%;
   text-align: justify;
-  margin-left:auto;
-  margin-right:auto;
-	flex:auto;
-		margin: 0px;
+
+ font-family: Dayrom, serif;
+		
 	
 }
 p{
-	/* border: 0px blue dashed;*/
+	
 	  box-shadow: 1px 1px 1px 1px grey ;
 	
 }
 ul{
-
 	list-style-type:none;
 }
-aside{
-	
-	flex-direction: row;
-	
-	align-self:flex-end;
+.reseau ul, .reseau li{
+	 display: inline;
+    margin: 0;
+    padding: 0;
+  
 }
+
+
+
 
 
 .
